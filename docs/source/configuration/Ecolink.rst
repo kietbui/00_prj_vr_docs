@@ -2,7 +2,7 @@ Ecolink Based Device
 ======================
 
 Tilt Sensor, Door and Window Sensor  
-----------------------------------
+-------------------------------------
 
 
 .. list-table:: Basic is sent  
