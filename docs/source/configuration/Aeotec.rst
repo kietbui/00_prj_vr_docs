@@ -10,10 +10,10 @@ Door and Window Sensor
 Wake-up device 
 ~~~~~~~~~~~~~~~~~~
 
-The Aeotec D/W Sensor can be made to stay awake for 10 minutes by the following methods. Once the Aeotec Labs D/W Sensor has been woken, the LED will blink every few seconds indicating that it is now awake and ready to receive Z-Wave network information and instructions.
+The Aeotec D/W Sensor can be made to stay awake for 10 minutes by pressing the tamper switch for 3 times. Once the Aeotec D/W Sensor has been woken, the LED will blink every few seconds indicating that it is now awake and ready to receive Z-Wave network information and instructions.
 
 .. image:: ../_static/images/aeotec_door_window_configuration.jpg 
-
+   :align: center
 
 .. list-table:: Door and Window Sensor 
    :widths: 15 30
@@ -40,8 +40,18 @@ The Aeotec D/W Sensor can be made to stay awake for 10 minutes by the following 
 
 
 
-Recessed Door Window Sensor  
--------------------------------
+Recessed Door Sensor  
+-----------------------
+
+Wake-up device 
+~~~~~~~~~~~~~~~
+
+The Aeotec Recessed Door Sensor can be made to stay awake for 10 seconds by pressing the z-wave button for 6 seconds.
+
+.. image:: ../_static/images/aeotec_recessed_door_wakeup.jpg 
+   :align: center
+
+
 
 .. list-table:: Basic Set Report 
    :widths: 15 30
