@@ -3,11 +3,16 @@ Aeotec based device
 
 Please note that the following devices should be waken up before do configuration  
 
+
 Door and Window Sensor  
 --------------------------
 
 Wake-up device 
 ~~~~~~~~~~~~~~~~~~
+
+The Aeotec D/W Sensor can be made to stay awake for 10 minutes by the following methods. Once the Aeotec Labs D/W Sensor has been woken, the LED will blink every few seconds indicating that it is now awake and ready to receive Z-Wave network information and instructions.
+
+.. image:: ../_static/images/aeotec_door_window_configuration.jpg 
 
 
 .. list-table:: Door and Window Sensor 
