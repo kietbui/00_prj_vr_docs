@@ -3,18 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Configuration's documentation!
+Welcome to Configuration!
 =================================
+This page is a guild-line on how to configure the z-wave devices 
 
-Contents:
 
+The supported devices
+=======================
 .. toctree::
    :maxdepth: 3
 
    configuration/index
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`search`
+.. * :ref:`search`
 
