@@ -183,7 +183,6 @@ Configuration
    * - Sound type 5 
      - Change to sound type 5
 
-
 .. list-table::  
    :header-rows: 1
 
@@ -207,3 +206,56 @@ Configuration
    * - Basic Report  
      - Send the Basic Report when the load of heavy duty smart is changed
 
+
+Multilevel sensor 5
+---------------------
+
+Configuration   
+~~~~~~~~~~~~~~
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Motion Detection  
+     - Description
+   * - Enable 
+     - Enable motion detection  
+   * - Disable 
+     - Disable motion detection 
+
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Sensor Report Type  
+     - Description
+   * - Temperature  
+     - Report temperature  
+   * - Humidity 
+     - Report humidity 
+   * - Luminance  
+     - Report luminance 
+   * - Battery 
+     - Report battery
+
+
+.. list-table::  TBD
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Report Interval   
+     - Description
+   * -     
+     -   
+
+
+.. list-table::  TBD
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Delay time   
+     - Description
+   * -    
+     -  

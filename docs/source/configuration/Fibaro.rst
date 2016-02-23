@@ -32,3 +32,52 @@ The Door and Window Sensor can send a dimmer value to the associated devices whe
      - Send value of 10 when the door is opened
 
 
+
+Flood sensor     
+----------------------
+
+
+Wake-up device 
+~~~~~~~~~~~~~~~
+This device is waken by opening/closin
+
+
+Configuration   
+~~~~~~~~~~~~~~~~ 
+
+The following configuration determines a type of command frame sent by the Sensor in case flooding has been detected or cancelled.
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Alarm Type
+     - Description    
+   * - Alarm Water   
+     - Send an ALARM WATER command when the flooding has been detected   
+   * - BASIC SET 
+     - Send a Basic Set command when the flooding has been detected  
+
+
+
+The following configuration determines if an alarm is sent to the devices when either tamper or flooding happens.  
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Signal Trigger Device 
+     - Description    
+   * - Nothing     
+     - Do not send nether tamper nor flooding event     
+   * - Flooding    
+     - Send flooding event    
+   * - Tampter 
+     - Send tamper event 
+   * - Flooding, tampter 
+     - Send flooding and tamper event 
+
+
+.. An example of configuration    
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+

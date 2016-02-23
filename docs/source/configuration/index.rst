@@ -13,5 +13,6 @@ Contents:
    Ecolink
    Fibaro
    Schlarge
+   GE
 
 
