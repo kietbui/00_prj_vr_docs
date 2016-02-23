@@ -16,9 +16,6 @@ Door Lock
    * - OFF 
      - Send Binary Report 
 
-
-
-
 .. list-table:: VACATION MODE  
    :widths: 15 30
    :header-rows: 1
@@ -29,7 +26,6 @@ Door Lock
      - Send Binary and Basic Set Report 
    * - OFF 
      - Send Binary Report 
-
 
 .. list-table:: LOCK AND LEAVE   
    :widths: 15 30
@@ -64,8 +60,6 @@ Door Lock
    * - 4, 5, 6, 7, 8   
      - Set the corresponding length of passcode to door and lock
 
-
- 
 
 Door and Window Sensor 
 ---------------------------

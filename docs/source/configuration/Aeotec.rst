@@ -1,7 +1,7 @@
-Aeotec based device 
+Aeotec based devices 
 ======================
 
-Please note that the following devices should be waken up before do configuration  
+Please note that the following devices should be waken up before doing configuration  
 
 
 Door and Window Sensor  
@@ -10,33 +10,50 @@ Door and Window Sensor
 Wake-up device 
 ~~~~~~~~~~~~~~~~~~
 
-The Aeotec D/W Sensor can be made to stay awake for 10 minutes by pressing the tamper switch for 3 times. Once the Aeotec D/W Sensor has been woken, the LED will blink every few seconds indicating that it is now awake and ready to receive Z-Wave network information and instructions.
+The Aeotec Door and Window Sensor can be made to stay awake for 10 minutes by firmly tapping the security switch 3 times in quick succession. Once the Aeotec Door and Window Sensor has been woken, the LED will blink every few seconds indicating that it is now awake.
+
+
 
 .. image:: ../_static/images/aeotec_door_window_configuration.jpg 
    :align: center
 
-.. list-table:: Door and Window Sensor 
+Configuration   
+~~~~~~~~~~~~~~~~
+
+.. list-table:: 
    :widths: 15 30
    :header-rows: 1
 
    * - Signal Trigger Device
-     - Basic Set Value 
+     - Description
    * - ON 
-     - Open: FF. Close: 00
+     - When it is open, the Basic Set of 0XFF is sent. If It is closed, the Basic Set of 0x00 is sent.
    * - OFF 
-     - Open: 00. Close: FF
+     - When it is open, the Basic Set of 0x00 is sent. If it is closed, the Basic Set of 0x00 is sent.
 
 
-.. list-table:: Value Trigger Controller 
+.. list-table::  
     :widths: 15 30
     :header-rows: 1
 
-    * - Value
-      - Binary Report 
+    * - Signal Trigger Controller
+      - Description 
     * - 0x00
-      - Open: FF. Close: 00
+      - When it is open, the Binary Report of 0XFF is sent. If It is closed, the Binary Report of 0x00 is sent.
     * - 0xFF
-      - Open: 00. Close: FF
+      - When it is open, the Binary Report of 0x00 is sent. If it is closed, the Binary Report of 0x00 is sent.
+
+
+.. list-table::  
+   :header-rows: 1
+
+   * - Report to
+   * - Device & Controller with Battery Information
+   * - Device & Controller
+   * - Device
+   * - Controller
+   * - Controller with Battery Information
+   * - Battery Information
 
 
 
@@ -51,27 +68,27 @@ The Aeotec Recessed Door Sensor can be made to stay awake for 10 seconds by pres
 .. image:: ../_static/images/aeotec_recessed_door_wakeup.jpg 
    :align: center
 
+Configuration   
+~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. list-table:: Basic Set Report 
+.. list-table::  
    :widths: 15 30
    :header-rows: 1
 
-   * - Value 
-     - Basic Set Report 
+   * - Signal Trigger Device 
+     - Description
    * - ON 
      - Open: FF. Close: 00
    * - OFF 
      - Open: 00. Close: FF
 
-
-
-.. list-table:: Which Report 
+.. list-table::  
    :widths: 15 30
    :header-rows: 1
 
-   * - Value 
-     - Binary Report  
+   * - Report to
+     - Description  
    * - Binary, Basic 
      - Send Binary and Basic Set Report 
    * - Binary 
@@ -80,4 +97,113 @@ The Aeotec Recessed Door Sensor can be made to stay awake for 10 seconds by pres
      - Send Basic Report 
    * - Nothing
      - Send neither Basic Set nor Binary Report 
+
+
+Heavy Duty Smart  
+------------------
+
+Configuration   
+~~~~~~~~~~~~~~~~
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Configuration 
+     - Description
+   * - Enable  
+     - Allow the configuration  
+   * - Disable   
+     - Not allow the configuration 
+
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Notification 
+     - Description
+   * - Nothing 
+     - Do not send the notification when the load of heavy duty smart is changed 
+   * - Basic Report  
+     - Send the Basic Report when the load of heavy duty smart is changed
+
+
+
+Smart Dimmer
+--------------
+
+Configuration   
+~~~~~~~~~~~~~~~~
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Configuration 
+     - Description
+   * - Enable  
+     - Allow the configuration  
+   * - Disable   
+     - Not allow the configuration 
+
+
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Notification 
+     - Description
+   * - Nothing 
+     - Do not send the notification when the load of heavy duty smart is changed 
+   * - Basic Report  
+     - Send the Basic Report when the load of heavy duty smart is changed
+
+
+
+Siren
+--------
+
+Configuration   
+~~~~~~~~~~~~~~~~
+
+.. list-table::  
+   :header-rows: 1
+
+   * - Sound Type  
+     - Description 
+   * - Sound type 1
+     - Change to sound type 1  
+   * - Sound type 2  
+     - Change to sound type 2
+   * - Sound type 3 
+     - Change to sound type 3
+   * - Sound type 4  
+     - Change to sound type 4
+   * - Sound type 5 
+     - Change to sound type 5
+
+
+.. list-table::  
+   :header-rows: 1
+
+   * - Volume  
+     - Description 
+   * - Low  
+     - Change volume low 
+   * - Medium 
+     - Change volume medium
+   * - High  
+     - Change volume high 
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Notification 
+     - Description
+   * - Nothing 
+     - Do not send the notification when the load of heavy duty smart is changed 
+   * - Basic Report  
+     - Send the Basic Report when the load of heavy duty smart is changed
 
