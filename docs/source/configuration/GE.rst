@@ -1,6 +1,7 @@
-GE devices
+GE 
 ===========
 
+.. _GE_config_device:
 
 Plugin smart Dimmer/in-wall smart switch/in-wall smart outlet  
 --------------------------------------------------------------
@@ -39,3 +40,21 @@ By default, the LED on the device is set to ON when the device is turned OFF. Th
    * - ON
      - The LED is ON when device is turn ON
 
+
+
+.. _GE_config_outdoor_smart_switch:
+
+Outdoor Smart Switch 
+----------------------
+
+.. image:: ../_static/images/GE_outdoor_smart_switch.jpg
+  :align: center
+
+.. Zigbee device 
+.. _GE_zigbee_light_bulb:
+
+GE Link LED LightBulb
+----------------------------
+
+.. image:: ../_static/images/zigbee/ge_bulb.png
+  :align: center

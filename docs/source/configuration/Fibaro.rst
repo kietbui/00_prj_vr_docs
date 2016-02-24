@@ -1,4 +1,4 @@
-Fibaro Based Device
+Fibaro 
 ======================
 
 Door and Window Sensor    
@@ -32,6 +32,7 @@ The Door and Window Sensor can send a dimmer value to the associated devices whe
      - Send value of 10 when the door is opened
 
 
+.. _fibaro_config_flood_sensor:
 
 Flood sensor     
 ----------------------
@@ -77,6 +78,12 @@ The following configuration determines if an alarm is sent to the devices when e
    * - Flooding, tampter 
      - Send flooding and tamper event 
 
+
+.. _fibaro_config_motion_detector_sensor:
+
+Motion sensor     
+----------------------
+T.B.D
 
 .. An example of configuration    
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 

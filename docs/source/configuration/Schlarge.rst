@@ -1,9 +1,10 @@
-Schlage Based Device
+Schlage 
 ======================
+
+.. _schlage_config_door_lock:
 
 Door Lock  
 -----------
-
 
 Configuration  
 ~~~~~~~~~~~~~~~
@@ -66,6 +67,8 @@ Configuration
      - Set the corresponding length of passcode to door and lock
 
 
+.. _schlage_config_door_window_sensor:
+
 Door and Window Sensor 
 ---------------------------
 
@@ -92,6 +95,7 @@ Association group two is intended for any device that is controllable with a Bas
      - Basic Set Report 00 is NOT sent when it is restored
 
 
+.. _schlage_config_motion_detector_sensor:
 
 Motion Detector 
 ------------------

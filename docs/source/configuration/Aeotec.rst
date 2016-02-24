@@ -1,8 +1,12 @@
+.. _aeotec_configuration_anchor:
+
 Aeotec 
 ======================
 
 Please note that the following devices should be waken up before doing configuration  
 
+
+.. _aeotec_config_door_window_sensor:
 
 Door and Window Sensor  
 --------------------------
@@ -57,8 +61,10 @@ Configuration
 
 
 
+.. _aeotec_config_recessed_door_sensor_gen5:
+
 Recessed Door Sensor (Gen 5) 
------------------------
+------------------------------
 
 Wake-up device 
 ~~~~~~~~~~~~~~~
@@ -108,6 +114,7 @@ Configuration
    * - Battery Information
 
 
+.. _aeotec_config_heavy_duty_smart:
 
 Heavy Duty Smart  
 ------------------
@@ -139,6 +146,7 @@ Configuration
      - Send the Basic Report when the load of heavy duty smart is changed
 
 
+.. _aeotec_config_smart_dimmer:
 
 Smart Dimmer
 --------------
@@ -170,6 +178,7 @@ Configuration
      - Send the Basic Report when the load of heavy duty smart is changed
 
 
+.. _aeotec_config_siren:
 
 Siren
 --------
@@ -216,6 +225,8 @@ Configuration
    * - Basic Report
      - Send the Basic Report when the state of siren is changed
 
+
+.. _aeotec_config_multilevel_sensor_gen5:
 
 Multilevel sensor 5
 ---------------------
@@ -269,3 +280,10 @@ Configuration
      - Description
    * -    
      -  
+
+
+.. _aeotec_config_multilevel_sensor_gen6:
+
+Multilevel sensor 6
+---------------------
+T.B.D
