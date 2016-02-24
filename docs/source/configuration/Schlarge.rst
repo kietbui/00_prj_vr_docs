@@ -84,7 +84,7 @@ Association group two is intended for any device that is controllable with a Bas
    :widths: 15 30
    :header-rows: 1
 
-   * - Value 
+   * - Signal Trigger Device
      - Basic Set Report    
    * - ON 
      - Basic Set Report 00 is sent when it is restored  

@@ -1,4 +1,4 @@
-Aeotec based devices 
+Aeotec 
 ======================
 
 Please note that the following devices should be waken up before doing configuration  
@@ -29,7 +29,7 @@ Configuration
    * - ON 
      - When it is open, the Basic Set of 0XFF is sent. If It is closed, the Basic Set of 0x00 is sent.
    * - OFF 
-     - When it is open, the Basic Set of 0x00 is sent. If it is closed, the Basic Set of 0x00 is sent.
+     - When it is open, the Basic Set of 0x00 is sent. If it is closed, the Basic Set of 0xFF is sent.
 
 
 .. list-table::  
@@ -41,7 +41,7 @@ Configuration
     * - 0x00
       - When it is open, the Binary Report of 0XFF is sent. If It is closed, the Binary Report of 0x00 is sent.
     * - 0xFF
-      - When it is open, the Binary Report of 0x00 is sent. If it is closed, the Binary Report of 0x00 is sent.
+      - When it is open, the Binary Report of 0x00 is sent. If it is closed, the Binary Report of 0xFF is sent.
 
 
 .. list-table::  
@@ -57,7 +57,7 @@ Configuration
 
 
 
-Recessed Door Sensor  
+Recessed Door Sensor (Gen 5) 
 -----------------------
 
 Wake-up device 
@@ -72,31 +72,41 @@ Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. list-table::  
+.. list-table:: 
    :widths: 15 30
    :header-rows: 1
 
-   * - Signal Trigger Device 
+   * - Signal Trigger Device
      - Description
    * - ON 
-     - Open: FF. Close: 00
+     - When it is open, the Basic Set of 0XFF is sent. If It is closed, the Basic Set of 0x00 is sent.
    * - OFF 
-     - Open: 00. Close: FF
+     - When it is open, the Basic Set of 0x00 is sent. If it is closed, the Basic Set of 0xFF is sent.
+
 
 .. list-table::  
-   :widths: 15 30
+    :widths: 15 30
+    :header-rows: 1
+
+    * - Signal Trigger Controller
+      - Description 
+    * - 0x00
+      - When it is open, the Binary Report of 0XFF is sent. If It is closed, the Binary Report of 0x00 is sent.
+    * - 0xFF
+      - When it is open, the Binary Report of 0x00 is sent. If it is closed, the Binary Report of 0xFF is sent.
+
+
+.. list-table::  
    :header-rows: 1
 
    * - Report to
-     - Description  
-   * - Binary, Basic 
-     - Send Binary and Basic Set Report 
-   * - Binary 
-     - Send Binary Report 
-   * - Basic  
-     - Send Basic Report 
-   * - Nothing
-     - Send neither Basic Set nor Binary Report 
+   * - Device & Controller with Battery Information
+   * - Device & Controller
+   * - Device
+   * - Controller
+   * - Controller with Battery Information
+   * - Battery Information
+
 
 
 Heavy Duty Smart  
