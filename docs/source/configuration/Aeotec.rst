@@ -213,7 +213,7 @@ Configuration
      - Description
    * - Nothing 
      - Do not send the notification when the state of siren is changed 
-   * - Basic Set  
+   * - Basic Report
      - Send the Basic Report when the state of siren is changed
 
 
