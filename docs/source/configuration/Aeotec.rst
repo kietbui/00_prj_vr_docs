@@ -212,9 +212,9 @@ Configuration
    * - Notification 
      - Description
    * - Nothing 
-     - Do not send the notification when the load of heavy duty smart is changed 
-   * - Basic Report  
-     - Send the Basic Report when the load of heavy duty smart is changed
+     - Do not send the notification when the state of siren is changed 
+   * - Basic Set  
+     - Send the Basic Report when the state of siren is changed
 
 
 Multilevel sensor 5
