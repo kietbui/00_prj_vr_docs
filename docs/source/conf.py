@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'VENUS Configuration'
-copyright = u'2016, VEriK'
+copyright = u'2016, HL'
 author = u'admin'
 
 # The version info for the project you're documenting, acts as replacement for
