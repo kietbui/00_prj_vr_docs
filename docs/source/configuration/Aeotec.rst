@@ -358,16 +358,27 @@ This amount of time can be configure as follows.
    * - Disable 
      - Do not send report
 
+The sensity of motion sensor could be configured as follows. 
+Level 5 is the most sensitive. 
+
 .. list-table::  
    :widths: 15 30
    :header-rows: 1
 
-   * - Motion Detection  
+   * - Motion sensity   
      - Description
-   * - Enable 
-     - Enable motion detection  
    * - Disable 
-     - Disable motion detection 
+     - Disable motion sensor  
+   * - Level 1
+     - Set motion sensity to level 1 
+   * - Level 2
+     - Set motion sensity to level 2
+   * - Level 3
+     - Set motion sensity to level 3 
+   * - Level 4
+     - Set motion sensity to level 4 
+   * - Level 5
+     - Set motion sensity to level 5 
 
 
 The sensor will automatically send report of temperature, humidity, luminance and battery for 3600 seconds interval. 
