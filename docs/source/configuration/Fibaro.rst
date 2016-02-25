@@ -40,7 +40,7 @@ Flood sensor
 
 Wake-up device 
 ~~~~~~~~~~~~~~~
-This device is waken by opening/closin
+This device is waken by opening/closing
 
 
 Configuration   
@@ -79,11 +79,46 @@ The following configuration determines if an alarm is sent to the devices when e
      - Send flooding and tamper event 
 
 
+When the flooding event is triggered, it will send a Flood Alarm.
+When the flooding event is ceased, it will send another Flood Alarm which cancels the flooding event. 
+The following configuration is to configure a time period that the Flood Alarm is sent since the flooding event is ceased. 
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Alarm Cancelation Delay 
+     - Description    
+   * - 0 to 3600
+     - A period that the Flood Alarm is sent since the flooding event is ceased. 
+
+
 .. _fibaro_config_motion_detector_sensor:
 
 Motion sensor     
 ----------------------
-T.B.D
+
+Wake-up device 
+~~~~~~~~~~~~~~~
+This device is waken by making a motion in front of the device
+
+
+Configuration   
+~~~~~~~~~~~~~~~~ 
+
+When the motion event is triggered, it will send a Motion Alarm.
+When the motion event is ceased, it will send another Motion Alarm which cancels the motion event. 
+The following configuration is to configure a time period that the Motion Alarm is sent since the motion event is ceased. 
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Motion Alarm Cancelation Delay 
+     - Description    
+   * - 1 to 65535
+     - A period that the Motion Alarm is sent since the motion event is ceased. 
+
 
 .. An example of configuration    
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 

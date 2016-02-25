@@ -18,7 +18,7 @@ The Aeotec Door and Window Sensor can be made to stay awake for 10 minutes by fi
 
 
 
-.. image:: ../_static/images/aeotec_door_window_configuration.jpg 
+.. image:: ../_static/images/aeotec_door_window_configuration_1.png 
    :align: center
 
 Configuration   
@@ -75,7 +75,18 @@ The Aeotec Recessed Door Sensor can be made to stay awake for 10 seconds by pres
    :align: center
 
 Configuration   
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Configuration 
+     - Description
+   * - Enable  
+     - Allow the configuration  
+   * - Disable   
+     - Not allow the configuration 
 
 
 .. list-table:: 
@@ -112,6 +123,20 @@ Configuration
    * - Controller
    * - Controller with Battery Information
    * - Battery Information
+
+The low battery notification can be configured if it sends a Low battery notification. 
+If it is enable, a low battery is notified. Otherwise, it is NOT notified.  
+
+.. list-table::  
+    :widths: 15 30
+    :header-rows: 1
+
+    * - Low Battery Notification 
+      - Description 
+    * - Enable 
+      - Send a notification when the battery is low.
+    * - Disable 
+      - Do not send a notification when the batter is low.
 
 
 .. _aeotec_config_heavy_duty_smart:
