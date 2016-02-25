@@ -80,14 +80,14 @@ Water/Flood Sensors
 Door lock
 	- :ref:`Yale Security Door Lock <yale_door_lock>`
 
-.. Wifi (UPnP)
-.. ===============
-.. 	- :ref:`Wemo switch`
-.. 	- :ref:`Wemo light-switch`
-.. 	- :ref:`Wemo insight switch`
-.. 	- :ref:`Wemo motion sensor`
-.. 	- :ref:`Wemo link`
-.. 	- :ref:`Wemo Maker`
+Wifi (UPnP)
+===============
+	- :ref:`Wemo switch`
+	- :ref:`Wemo light-switch`
+	- :ref:`Wemo insight switch`
+	- :ref:`Wemo motion sensor`
+	- :ref:`Wemo link`
+	- :ref:`Wemo Maker`
 
 .. Indices and tables
 .. ==================

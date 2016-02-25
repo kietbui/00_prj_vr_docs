@@ -286,29 +286,100 @@ Configuration
    * - Battery 
      - Report battery
 
+By default, this sensor will send Basic Set of 0x00 if there is no more motion for 4 minutes. 
+This amount of time can be configure as follows. 
 
-.. list-table::  TBD
+.. list-table::  
    :widths: 15 30
    :header-rows: 1
 
-   * - Report Interval   
+   * - Time delay 
      - Description
-   * -     
-     -   
+   * - 1 ... 15300    
+     - Set this amount of time to device 
 
+The sensor will automatically send report of temperature, humidity, luminance and battery for 1800 seconds interval. 
+And this interval of time could be configured as follows. 
 
-.. list-table::  TBD
+.. list-table:: 
    :widths: 15 30
    :header-rows: 1
 
-   * - Delay time   
+   * - Auto Report Interval 
      - Description
-   * -    
-     -  
+   * - 5 ... 2678400 
+     - Set this amount of time to device 
 
 
 .. _aeotec_config_multilevel_sensor_gen6:
 
 Multilevel sensor 6
 ---------------------
-T.B.D
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Configuration 
+     - Description
+   * - Enable  
+     - Allow the configuration  
+   * - Disable   
+     - Not allow the configuration 
+
+
+
+By default, this sensor will send Basic Set of 0x00 if there is no more motion for 4 minutes. 
+This amount of time can be configure as follows. 
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Time delay 
+     - Description
+   * - 1 ... 3600    
+     - Set this amount of time to device 
+
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Sensor Report Type  
+     - Description
+   * - Temperature  
+     - Report temperature  
+   * - Humidity 
+     - Report humidity 
+   * - Luminance  
+     - Report luminance 
+   * - Battery 
+     - Report battery
+   * - Disable 
+     - Do not send report
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Motion Detection  
+     - Description
+   * - Enable 
+     - Enable motion detection  
+   * - Disable 
+     - Disable motion detection 
+
+
+The sensor will automatically send report of temperature, humidity, luminance and battery for 3600 seconds interval. 
+And this interval of time could be configured as follows. 
+
+.. list-table:: 
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Auto Report Interval 
+     - Description
+   * - 5 ... 2678400 
+     - Set this amount of time to device 
+
+
