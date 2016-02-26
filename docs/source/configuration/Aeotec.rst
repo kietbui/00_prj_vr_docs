@@ -116,10 +116,10 @@ Configuration
 .. list-table::  
    :header-rows: 1
 
-   * - Report Type
-   * - Basic Report, Binary Report 
-   * - Basic Report
-   * - Binary Report 
+   * - Report To
+   * - Device & Controller
+   * - Device
+   * - Controller 
    * - Nothing
 
 The low battery notification can be configured if it sends a Low battery notification. 
