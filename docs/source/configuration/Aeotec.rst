@@ -161,12 +161,12 @@ Configuration
    :widths: 15 30
    :header-rows: 1
 
-   * - Notification 
+   * - Report To
      - Description
    * - Nothing 
-     - Do not send the notification when the load of heavy duty smart is changed 
-   * - Basic Report  
-     - Send the Basic Report when the load of heavy duty smart is changed
+     - Do not send the notification when the load is changed 
+   * - Controller  
+     - Send the Basic Report when the load is changed
 
 
 .. _aeotec_config_smart_dimmer:
@@ -176,29 +176,29 @@ Smart Dimmer
 
 Configuration   
 ~~~~~~~~~~~~~~~~
+
+.. .. list-table::  
+..    :widths: 15 30
+..    :header-rows: 1
+
+..    * - Configuration 
+..      - Description
+..    * - Enable  
+..      - Allow the configuration  
+..    * - Disable   
+..      - Not allow the configuration 
+
+
 .. list-table::  
    :widths: 15 30
    :header-rows: 1
 
-   * - Configuration 
-     - Description
-   * - Enable  
-     - Allow the configuration  
-   * - Disable   
-     - Not allow the configuration 
-
-
-
-.. list-table::  
-   :widths: 15 30
-   :header-rows: 1
-
-   * - Notification 
+   * - Report To 
      - Description
    * - Nothing 
-     - Do not send the notification when the load of heavy duty smart is changed 
-   * - Basic Report  
-     - Send the Basic Report when the load of heavy duty smart is changed
+     - Do not send the notification when the load is changed 
+   * - Controller
+     - Send the a notification when the load is changed
 
 
 .. _aeotec_config_siren:
@@ -241,11 +241,11 @@ Configuration
    :widths: 15 30
    :header-rows: 1
 
-   * - Notification 
+   * - Report To
      - Description
    * - Nothing 
      - Do not send the notification when the state of siren is changed 
-   * - Basic Report
+   * - Controller
      - Send the Basic Report when the state of siren is changed
 
 
@@ -386,7 +386,7 @@ And this interval of time could be configured as follows.
    :widths: 15 30
    :header-rows: 1
 
-   * - Auto Report Interval 
+   * - Interval Time 
      - Description
    * - 5 ... 2678400 
      - Set this amount of time to device 

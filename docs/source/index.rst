@@ -16,6 +16,7 @@ Open/Close Sensor
 	- :ref:`Ecolink Door Window Sensor <ecolink_config_door_window_sensor>`
 	- :ref:`Ecolink Tilt Sensor <ecolink_config_tilt_sensor>`
 	- :ref:`Schlage Home Door Window Sensor <schlage_config_door_window_sensor>`  
+	- :ref:`FIBARO Z-Wave Door/Window Sensor <fibaro_door_window_sensor>`
 
 Motion/Sensor 
 	- :ref:`Aeon Labs Gen5 Multi-Sensor <aeotec_config_multilevel_sensor_gen5>`
@@ -32,7 +33,7 @@ Switches & Dimmers
 	- :ref:`Jasco Lamp Module <GE_config_device>`
 	- :ref:`Zipato RGBW Led Bulb <fibaro_config_LED_bulb_sensor>`
 	- :ref:`Everspring Lamp Holder <everspring_lamp_holder_sensor>`
-
+	- :ref:`Aeon Labs Smart Energy Plug-In Dimmer <aeotec_config_smart_dimmer>`
 
 Smoke Sensors
 	- :ref:`First Alert Smoke and Carbon Monoxide <first_alert_smoke_carbon_monoxide>`

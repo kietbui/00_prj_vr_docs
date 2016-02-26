@@ -1,6 +1,8 @@
 Fibaro 
 ======================
 
+.. _fibaro_door_window_sensor:
+
 Door and Window Sensor    
 ----------------------
 
@@ -87,7 +89,7 @@ The following configuration is to configure a time period that the Flood Alarm i
    :widths: 15 30
    :header-rows: 1
 
-   * - Alarm Cancelation Delay 
+   * - Interval Time
      - Description    
    * - 0 to 3600
      - A period that the Flood Alarm is sent since the flooding event is ceased. 
@@ -114,7 +116,7 @@ The following configuration is to configure a time period that the Motion Alarm 
    :widths: 15 30
    :header-rows: 1
 
-   * - Motion Alarm Cancelation Delay 
+   * - Interval Time
      - Description    
    * - 1 to 65535
      - A period that the Motion Alarm is sent since the motion event is ceased. 
