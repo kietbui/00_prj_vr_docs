@@ -116,13 +116,11 @@ Configuration
 .. list-table::  
    :header-rows: 1
 
-   * - Report to
-   * - Device & Controller with Battery Information
-   * - Device & Controller
-   * - Device
-   * - Controller
-   * - Controller with Battery Information
-   * - Battery Information
+   * - Report Type
+   * - Basic Report, Binary Report 
+   * - Basic Report
+   * - Binary Report 
+   * - Nothing
 
 The low battery notification can be configured if it sends a Low battery notification. 
 If it is enable, a low battery is notified. Otherwise, it is NOT notified.  
