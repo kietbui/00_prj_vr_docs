@@ -11,7 +11,7 @@ Motion Sensor/
   :align: center
 
 
-Configuration  [TODO]
+Configuration
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table:: 

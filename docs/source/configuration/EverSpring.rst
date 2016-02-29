@@ -31,6 +31,9 @@ Then value of Basic Set is from 0 to 99.
 Everspring Lamp Holder
 -----------------------
 
+.. image:: ../_static/images/everspring_lamp_holder.jpg
+   :align: center
+
 Configuration   
 ~~~~~~~~~~~~~~~~
 There is no configuration 

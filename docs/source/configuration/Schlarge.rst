@@ -6,6 +6,10 @@ Schlage
 Door Lock  
 -----------
 
+
+.. image:: ../_static/images/schlage_door_lock.jpg 
+   :align: center
+
 Configuration  
 ~~~~~~~~~~~~~~~
 
@@ -71,6 +75,11 @@ Configuration
 
 Door and Window Sensor 
 ---------------------------
+
+
+.. image:: ../_static/images/schlage_door_window_sensor.jpg 
+   :align: center
+
 
 Wake-up device 
 ~~~~~~~~~~~~~~~

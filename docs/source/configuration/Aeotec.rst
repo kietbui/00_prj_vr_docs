@@ -11,6 +11,9 @@ Please note that the following devices should be waken up before doing configura
 Door and Window Sensor  
 --------------------------
 
+.. image:: ../_static/images/aeotec_door_window_sensor.jpg 
+   :align: center
+
 Wake-up device 
 ~~~~~~~~~~~~~~~~~~
 
@@ -65,6 +68,10 @@ Configuration
 
 Recessed Door Sensor (Gen 5) 
 ------------------------------
+
+
+.. image:: ../_static/images/aeotec_recessed_door_window_sensor.jpg 
+   :align: center
 
 Wake-up device 
 ~~~~~~~~~~~~~~~
@@ -149,16 +156,16 @@ Heavy Duty Smart
 Configuration   
 ~~~~~~~~~~~~~~~~
 
-.. list-table::  
-   :widths: 15 30
-   :header-rows: 1
+.. .. list-table::  
+..    :widths: 15 30
+..    :header-rows: 1
 
-   * - Configuration 
-     - Description
-   * - Enable  
-     - Allow the configuration  
-   * - Disable   
-     - Not allow the configuration 
+..    * - Configuration 
+..      - Description
+..    * - Enable  
+..      - Allow the configuration  
+..    * - Disable   
+..      - Not allow the configuration 
 
 
 .. list-table::  
@@ -212,6 +219,10 @@ Configuration
 
 Siren
 --------
+
+.. image:: ../_static/images/aeotec_siren.jpg 
+   :align: center
+
 
 Configuration   
 ~~~~~~~~~~~~~~~~
@@ -334,16 +345,16 @@ Multilevel sensor 6
 Configuration   
 ~~~~~~~~~~~~~~
 
-.. list-table::  
-   :widths: 15 30
-   :header-rows: 1
+.. .. list-table::  
+..    :widths: 15 30
+..    :header-rows: 1
 
-   * - Configuration 
-     - Description
-   * - Enable  
-     - Allow the configuration  
-   * - Disable   
-     - Not allow the configuration 
+..    * - Configuration 
+..      - Description
+..    * - Enable  
+..      - Allow the configuration  
+..    * - Disable   
+..      - Not allow the configuration 
 
 
 
