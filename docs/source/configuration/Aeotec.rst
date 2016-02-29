@@ -142,6 +142,10 @@ If it is enable, a low battery is notified. Otherwise, it is NOT notified.
 Heavy Duty Smart  
 ------------------
 
+
+.. image:: ../_static/images/aeotec_heavy_duty_smart.jpg 
+   :align: center
+
 Configuration   
 ~~~~~~~~~~~~~~~~
 
@@ -173,6 +177,9 @@ Configuration
 
 Smart Dimmer
 --------------
+
+.. image:: ../_static/images/aeotec_smart_dimmer.jpg 
+   :align: center
 
 Configuration   
 ~~~~~~~~~~~~~~~~
@@ -254,6 +261,11 @@ Configuration
 Multilevel sensor 5
 ---------------------
 
+
+.. image:: ../_static/images/aeotec_multilevel5_sensor.jpg 
+   :align: center
+
+
 Configuration   
 ~~~~~~~~~~~~~~
 
@@ -313,6 +325,15 @@ And this interval of time could be configured as follows.
 
 Multilevel sensor 6
 ---------------------
+
+
+.. image:: ../_static/images/aeotec_multilevel6_sensor.jpg 
+   :align: center
+
+
+Configuration   
+~~~~~~~~~~~~~~
+
 .. list-table::  
    :widths: 15 30
    :header-rows: 1

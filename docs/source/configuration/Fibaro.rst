@@ -6,6 +6,11 @@ Fibaro
 Door and Window Sensor    
 ----------------------
 
+
+.. image:: ../_static/images/fibaro_door_window_sensor.jpg 
+   :align: center
+
+
 Wake-up device 
 ~~~~~~~~~~~~~~~
 This device is waken by opening/closing  
@@ -38,6 +43,11 @@ The Door and Window Sensor can send a dimmer value to the associated devices whe
 
 Flood sensor     
 ----------------------
+
+
+.. image:: ../_static/images/fibaro_flood_sensor.jpg 
+   :align: center
+
 
 
 Wake-up device 
@@ -99,6 +109,11 @@ The following configuration is to configure a time period that the Flood Alarm i
 
 Motion sensor     
 ----------------------
+
+
+.. image:: ../_static/images/fibaro_motion_sensor.png 
+   :align: center
+
 
 Wake-up device 
 ~~~~~~~~~~~~~~~
