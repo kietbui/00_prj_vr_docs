@@ -24,6 +24,8 @@ Configuration
    * - OFF 
      - disable beep when a key is pressed  
 
+When Vacation Mode is enabled, User Codes will not unlock the lock. Used to ensure lock remains secure while you are away from home. Disable vacation mode to resume normal operation
+
 .. list-table:: 
    :widths: 15 30
    :header-rows: 1
@@ -37,6 +39,9 @@ Configuration
 
 .. Press Schlage button, it is automatically locked 
 
+Enabled by default. When enabled, the  deadbolt can be locked from the outside by pressing the Schlage button and rotating the thumbturn. When disabled, a User 
+Code must be entered before rotating the thumbturn. Disabling this feature keeps an unauthorized person from locking the door from the outside.
+
 .. list-table::  
    :widths: 15 30
    :header-rows: 1
@@ -48,7 +53,7 @@ Configuration
    * - OFF 
      - Disable lock and leave 
 
-.. It is automaitcally lock after a mount of time is eslapsed 
+It is automaitcally lock after a mount of time is eslapsed 
 .. list-table::  
    :widths: 15 30
    :header-rows: 1
