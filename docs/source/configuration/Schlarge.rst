@@ -54,6 +54,7 @@ Code must be entered before rotating the thumbturn. Disabling this feature keeps
      - Disable lock and leave 
 
 It is automaitcally lock after a mount of time is eslapsed 
+
 .. list-table::  
    :widths: 15 30
    :header-rows: 1
