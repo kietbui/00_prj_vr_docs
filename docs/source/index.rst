@@ -30,7 +30,7 @@ Switches & Dimmers
 	- :ref:`GE Lighting Control Outdoor <GE_config_outdoor_smart_switch>`
 	- :ref:`GE Lighting Control Duplex Receptacle <GE_config_device>`
 	- :ref:`Aeon Labs Heavy Duty Smart Switch <aeotec_config_heavy_duty_smart>`
-	- :ref:`Jasco Lamp Module <GE_config_device>`
+	- :ref:`Jasco Lamp Module <JASCO_config_lamp_module>`
 	- :ref:`Zipato RGBW Led Bulb <fibaro_config_LED_bulb_sensor>`
 	- :ref:`Everspring Lamp Holder <everspring_lamp_holder_sensor>`
 	- :ref:`Aeon Labs Smart Energy Plug-In Dimmer <aeotec_config_smart_dimmer>`

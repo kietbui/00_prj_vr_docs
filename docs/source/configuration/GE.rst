@@ -11,7 +11,7 @@ Plugin smart Dimmer/in-wall smart switch/in-wall smart outlet
 .. image:: ../_static/images/GE_smart_switch.jpg
 ..   :align: center
 
-Smart Switch 
+Smart Dimmer
 
 .. .. image:: ../_static/images/GE_smart_dimmer.jpg
 .. ..   :align: center
@@ -33,7 +33,7 @@ By default, the LED on the device is set to ON when the device is turned OFF. Th
    :widths: 15 30
    :header-rows: 1
 
-   * - LED light 
+   * - LED indicator
      - Description   
    * - checked 
      - The LED is ON when device is turn OFF    

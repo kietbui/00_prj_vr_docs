@@ -172,11 +172,11 @@ Configuration
    :widths: 15 30
    :header-rows: 1
 
-   * - Report To
+   * - Signal Trigger Controller 
      - Description
    * - Nothing 
-     - Do not send the notification when the device is switched ON/OFF
-   * - Controller  
+     - Do NOT send the notification when the device is switched ON/OFF
+   * - Enable  
      - Send the notification when the device is switched ON/OFF
 
 
@@ -207,11 +207,11 @@ Configuration
    :widths: 15 30
    :header-rows: 1
 
-   * - Report To 
+   * - Signal Trigger Controller 
      - Description
-   * - Nothing 
+   * - Disable 
      - Do not send the notification when the device is switched ON/OFF 
-   * - Controller
+   * - Enable 
      - Send the a notification when the device is switched ON/OFF
 
 
