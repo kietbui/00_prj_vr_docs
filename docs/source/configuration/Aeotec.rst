@@ -175,9 +175,9 @@ Configuration
    * - Report To
      - Description
    * - Nothing 
-     - Do not send the notification when the load is changed 
+     - Do not send the notification when the device is switched ON/OFF
    * - Controller  
-     - Send the Basic Report when the load is changed
+     - Send the notification when the device is switched ON/OFF
 
 
 .. _aeotec_config_smart_dimmer:
@@ -210,9 +210,9 @@ Configuration
    * - Report To 
      - Description
    * - Nothing 
-     - Do not send the notification when the load is changed 
+     - Do not send the notification when the device is switched ON/OFF 
    * - Controller
-     - Send the a notification when the load is changed
+     - Send the a notification when the device is switched ON/OFF
 
 
 .. _aeotec_config_siren:
@@ -264,7 +264,7 @@ Configuration
    * - Nothing 
      - Do not send the notification when the state of siren is changed 
    * - Controller
-     - Send the Basic Report when the state of siren is changed
+     - Send the notification when the state of siren is changed
 
 
 .. _aeotec_config_multilevel_sensor_gen5:
@@ -314,7 +314,7 @@ This amount of time can be configure as follows.
    :widths: 15 30
    :header-rows: 1
 
-   * - Time delay 
+   * - Interval Time 
      - Description
    * - 1 ... 15300    
      - Set this amount of time to device 
@@ -365,7 +365,7 @@ This amount of time can be configure as follows.
    :widths: 15 30
    :header-rows: 1
 
-   * - Time delay 
+   * - Interval Time 
      - Description
    * - 1 ... 3600    
      - Set this amount of time to device 
@@ -385,6 +385,8 @@ This amount of time can be configure as follows.
      - Report luminance 
    * - Battery 
      - Report battery
+   * - Ultraviolet 
+     - Report ultraviolet
    * - Disable 
      - Do not send report
 
@@ -418,7 +420,7 @@ And this interval of time could be configured as follows.
    :widths: 15 30
    :header-rows: 1
 
-   * - Interval Time 
+   * - Auto Interval Time 
      - Description
    * - 5 ... 2678400 
      - Set this amount of time to device 

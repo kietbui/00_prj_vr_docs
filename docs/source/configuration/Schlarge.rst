@@ -62,9 +62,9 @@ It is automaitcally lock after a mount of time is eslapsed
    * - AUTOLOCK 
      - Description   
    * - ON  
-     - Send Binary and Basic Set Report 
+     - It will automatically lock the door  
    * - OFF 
-     - Send Binary Report 
+     - It will NOT automatically lock the door 
 
 .. 
 .. list-table:: 

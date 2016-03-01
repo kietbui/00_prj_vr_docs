@@ -25,7 +25,7 @@ The Door and Window Sensor can send a dimmer value to the associated devices whe
    :widths: 15 30
    :header-rows: 1
 
-   * - Dimming level 
+   * - Signal Trigger Device 
      - Description    
    * - ON  
      - Send value of 255 when the door is opened  
@@ -73,22 +73,44 @@ The following configuration determines a type of command frame sent by the Senso
 
 
 
-The following configuration determines if an alarm is sent to the devices when either tamper or flooding happens.  
+Changes of visual and acoustic affect allow to increase the battery life. This can be configured as follows 
 
 .. list-table::  
    :widths: 15 30
    :header-rows: 1
 
-   * - Signal Trigger Device 
+   * - Visual and Acoustic Affect
      - Description    
    * - Nothing     
-     - Do not send nether tamper nor flooding event     
-   * - Flooding    
-     - Send flooding event    
-   * - Tampter 
-     - Send tamper event 
-   * - Flooding, tampter 
-     - Send flooding and tamper event 
+     - Deactivate visual and acoustic affect     
+   * - Visual affect
+     - Activate the visual effect     
+   * - Acoustic affect 
+     - Activate the acoustic affect  
+   * - Acoustic and Visual affect
+     - Activate both visual and acoustic affect  
+
+
+
+The parameter allows for LED indicator and acoustic alarm deactivation in case of flooding detection
+
+
+.. The following configuration determines if an alarm is sent to the devices when either tamper or flooding happens.  
+
+.. .. list-table::  
+..    :widths: 15 30
+..    :header-rows: 1
+
+..    * - Signal Trigger Device 
+..      - Description    
+..    * - Nothing     
+..      - Do not send nether tamper nor flooding event     
+..    * - Flooding    
+..      - Send flooding event    
+..    * - Tamper 
+..      - Send tamper event 
+..    * - Flooding, tamper 
+..      - Send flooding and tamper event 
 
 
 When the flooding event is triggered, it will send a Flood Alarm.

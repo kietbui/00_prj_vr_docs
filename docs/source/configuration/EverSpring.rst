@@ -20,10 +20,10 @@ Then value of Basic Set is from 0 to 99.
    :widths: 15 30
    :header-rows: 1
 
-   * - Dimming value 
+   * - Value Trigger Device
      - Description    
    * - 0 to 99   
-     - Indicate the dimming level when a flooding event is detected  
+     - Indicate the corresponding value when a flooding event is detected  
 
 
 .. _everspring_lamp_holder_sensor:

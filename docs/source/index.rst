@@ -47,7 +47,7 @@ Water/Flood Sensors
 	- :ref:`FIBARO flood sensor <fibaro_config_flood_sensor>`
 
 Door lock
-	- :ref:`Door_lock (scharlge) <schlage_config_door_lock>`
+	- :ref:`Door_lock (schlage) <schlage_config_door_lock>`
 
 
 Zigbee Devices
