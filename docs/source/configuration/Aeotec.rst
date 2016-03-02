@@ -34,7 +34,7 @@ Configuration
    * - Signal Trigger Device
      - Description
    * - ON 
-     - When it is open, the Basic Set of 0XFF is sent. If It is closed, the Basic Set of 0x00 is sent.
+     - When door/window is opened, Basic Set 0XFF is sent and when door/window is closed, Basic Set 0x00 is sent.
    * - OFF 
      - When it is open, the Basic Set of 0x00 is sent. If it is closed, the Basic Set of 0xFF is sent.
 
