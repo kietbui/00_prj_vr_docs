@@ -18,9 +18,9 @@ Configuration
    :widths: 15 30
    :header-rows: 1
 
-   * - Time Delay 
+   * - Interval Time
      - Description
-   * - ON 
-     - When it is open, the Basic Set of 0XFF is sent. If It is closed, the Basic Set of 0x00 is sent.
+    * - 10 ... 65535 
+     - Set this amount of time to device     
  
 
